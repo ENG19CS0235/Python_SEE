@@ -33,7 +33,7 @@ a list [key, value] of length 2.
 '''
 
 Answer:
-a)
+a)Input
 3
 1 2
 2 2
@@ -42,7 +42,9 @@ a)
 4 4
 when key does not exist in data 1, the key value pair is not added to it 
 
-b)def uniqueUpdate(data1, data2):
+b)
+
+def uniqueUpdate(data1, data2):
     # Initially empty dictionary
     dupKeys = {}
 
