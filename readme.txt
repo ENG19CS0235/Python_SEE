@@ -68,3 +68,12 @@ def uniqueUpdate(data1, data2):
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys 
+    
+    f k in data1:
+            v1 = data1[k]
+        if v1 != v2:
+            dupKeys[k] = [v1, v2]
+            del data1[k]
+        else:
+            data1[k] = v2
+    return dupKeys
