@@ -31,3 +31,21 @@ dictionary and data2 is a list where
 each key-value pair in data2 is also
 a list [key, value] of length 2.
 '''
+
+Answer:
+a)
+3
+1 2
+2 2
+8 7
+3 3
+4 4
+when key does not exist in data 1, the key value pair is not added to it 
+
+b) if k in def 1:
+     v1=data1[k]
+     if v1!=v2:
+       dupkey[k]=[v1,v2]
+       del data1[k]
+   else:
+     data1[k]=v2
