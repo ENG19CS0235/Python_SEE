@@ -33,7 +33,7 @@ a list [key, value] of length 2.
 '''
 
 Answer:
-a)Input
+a)Test case
 3
 1 2
 2 2
